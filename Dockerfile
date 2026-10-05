@@ -7,7 +7,7 @@ RUN mkdir -p bin && \
     curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o bin/yt-dlp && \
     chmod a+rx bin/yt-dlp
 COPY package.json ./
-RUN npm install
+RUN npm install --legacy-peer-deps
 COPY . .
 RUN npm run build
 ENV NODE_ENV=production
