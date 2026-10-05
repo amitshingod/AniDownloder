@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>AniDownloader</title>
+    <meta name="description" content="Mobile-first PWA media downloader for public video and audio with Android share-sheet support, format selection, and Google Drive backup." />
+    
+    <!-- OpenGraph & Twitter -->
+    <meta property="og:title" content="AniDownloader" />
+    <meta property="og:description" content="Mobile-first PWA media downloader for public video and audio with Android share-sheet support, format selection, and Google Drive backup." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/pwa-512x512.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AniDownloader" />
+    <meta name="twitter:description" content="Mobile-first PWA media downloader for public video and audio with Android share-sheet support, format selection, and Google Drive backup." />
+
+    <!-- PWA & Mobile Web App Meta -->
+    <meta name="theme-color" content="#0b0f19" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AniDownloader" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/pwa-192x192.png" />
+  </head>
+  <body class="bg-[#080a10] text-slate-100 antialiased selection:bg-blue-600 selection:text-white min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

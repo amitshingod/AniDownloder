@@ -1,0 +1,8 @@
+{
+  "name": "Remix AniDownloader",
+  "description": "Mobile-first PWA media downloader for public video and audio with Android share-sheet support, format selection, and Google Drive backup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
